@@ -33,25 +33,37 @@ header h1 {
   width: 100%;
   background-size: cover;
 }
-/*Warning, this div is not positioned correctly!!! Needs to be fixed*/
-#ArrivalText {
+.ArrivalContainer {
   width: 960px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+}
+#ArrivalText {
+  position: relative;
+  top: 9rem;
   background-color: black;
   color: white;
+  margin: 0;
+  padding: 0;
   width: 20rem;
   height: 8rem;
   text-transform: uppercase;
+  padding-left: 3rem;
+  padding-top: 2rem;
 }
 #ArrivalText h4 {
   font-size: 1rem;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
+
 }
 #ArrivalText h1 {
   font-size: 2rem;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
+
 }
 /*Nav Section*/
 
