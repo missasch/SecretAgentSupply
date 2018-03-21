@@ -25,8 +25,34 @@ header h1 {
   display: flex;
   justify-content: center;
 }
-/*New Arrival Section*/
 
+/*New Arrival Section*/
+#NewArrival {
+  background-image: url("../images/moto.jpeg");
+  height: 25rem;
+  width: 100%;
+  background-size: cover;
+}
+/*Warning, this div is not positioned correctly!!! Needs to be fixed*/
+#ArrivalText {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  width: 20rem;
+  height: 8rem;
+  text-transform: uppercase;
+}
+#ArrivalText h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+#ArrivalText h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
 /*Nav Section*/
 
 /*Catalog Section*/
