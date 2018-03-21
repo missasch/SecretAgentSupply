@@ -1,0 +1,36 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, Arial;
+}
+
+/*Header Section*/
+header {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  align-self: center;
+}
+header h1 {
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+.logo {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+/*New Arrival Section*/
+
+/*Nav Section*/
+
+/*Catalog Section*/
+
+/*Location Section*/
+
+/*Footer Section*/
