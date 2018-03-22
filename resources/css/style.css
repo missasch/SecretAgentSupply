@@ -125,5 +125,33 @@ nav ul {
 }
 
 /*Location Section*/
+#LocationHours {
+  display: flex;
+  justify-content: center;
+}
+.LocationContainer {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.Loction {
+  width: 35%;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.LocationText {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 1rem 0 1rem 2rem;
+}
+.LocationNum {
+  text-align: left;
+  padding-top: 4px;
+}
 
 /*Footer Section*/
+footer {
+  display: block;
+}
