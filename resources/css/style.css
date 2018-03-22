@@ -80,6 +80,9 @@ nav ul {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+.Menu2 {
+  display: none;
+}
 /*Catalog Section*/
 .Catalog {
   display: flex;
@@ -163,4 +166,27 @@ footer {
 .Container {
   width: 960px;
   text-align: left;
+}
+/*Begin Media Queries*/
+/*The directions for the project state that the 1024 query will have modified text sized, but it wasn't in the redline so I didn't adust them*/
+@media only screen and (max-width: 1024px) {
+    .Menu1 {
+      display: none;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+    .Menu2 {
+      display: flex;
+    }
+    #Item2 {
+      display: none;
+    }
+    .Item {
+      width: 47%;
+    }
+    .Loction {
+      width: 35%;
+    }
 }
