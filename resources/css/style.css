@@ -155,6 +155,7 @@ nav ul {
 }
 
 /*Footer Section*/
+/*The footer doesn't look the right height as the redline, but I've used the specific 5rem for it so I choose to leave it what was specified rather than how it looks*/
 footer {
   display: flex;
   justify-content: center;
@@ -170,6 +171,10 @@ footer {
 /*Begin Media Queries*/
 /*The directions for the project state that the 1024 query will have modified text sized, but it wasn't in the redline so I didn't adust them*/
 @media only screen and (max-width: 1024px) {
+    .ArrivalContainer {
+        display: flex;
+        justify-content: flex-start;
+    }
     .Menu1 {
       display: none;
     }
@@ -188,5 +193,59 @@ footer {
     }
     .Loction {
       width: 35%;
+    }
+}
+@media only screen and (max-width: 470px) {
+    #NewArrival {
+      height: 15rem;
+    }
+    #ArrivalText {
+      width: 100%;
+      height: 3.5rem;
+      top: 10rem;
+      padding-top: 1rem;
+      padding-left: 2rem;
+    }
+    #ArrivalText h4 {
+      font-size: 0.77rem;
+      font-weight: bold;
+      padding-bottom: 0.7rem;
+    }
+    #ArrivalText h1 {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .CatalogContainer {
+      display: flex;
+      justify-content: center;
+    }
+    #Item1 {
+      display: none;
+    }
+    .Item {
+      width: 90%;
+    }
+    .LocationContainer {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+    .Loction {
+      width: 90%;
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .LocationText {
+      width: 100%;
+    }
+    .LocationNum {
+      width: 100%;
+    }
+    .Container {
+      text-align: center;
     }
 }
